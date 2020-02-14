@@ -15,6 +15,10 @@ app.get('/', function (req, res) {
     res.render('home');
 });
 
+app.get('/film', function (req, res) {
+  res.render('film');
+});
+
 app.use (
     sassMiddleware({
       /* Options */

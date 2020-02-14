@@ -1,0 +1,42 @@
+.film-img {
+    width: 100%;
+}
+.film-title-rus {
+    font-size: 28px;
+    line-height: 26px;
+    color: #f2f2f2;
+    margin: 0 0 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.film-title-eng {
+    color: white;
+    font-size: medium;
+}
+.film-data {
+    color: #E91E63;
+    font-size: 27px;
+}
+small {
+    color: white;
+}
+.details-year {
+    color: #fff;
+    opacity: .5;
+    padding-right: 10px;
+    position: absolute;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    width: 120px;
+}
+.details-year-text {
+    font-size: 26px;
+    line-height: 17px;
+    margin: 0;
+    display: inline;
+    color: #dedde1;
+    white-space: normal;
+    padding-left: 100px;
+
+}
