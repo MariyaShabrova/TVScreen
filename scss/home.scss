@@ -8,16 +8,38 @@
     background-size: cover !important;
     color: black;
     filter: saturate(0.5);
-  }
+    height: 425px;
+}
+  
   
   #testimonial-carousel {
     transform: translateY(-50%);
     bottom: 0;
     top: 50%;
   }
-  
+  .testimonital-parameters {
+    font-size: 1rem;
+    color: #736f6f;
+  }
+  .testimonital-transition {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #E91E63;
+    background: linear-gradient(#E91E63, #E91E63);
+    border: 1px solid #17262e;
+    border-radius: 5px;
+    box-shadow: 0 1px #41282e;
+    padding: 2px 5px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    text-shadow: 1px 1px #000000;
+}
+
   .carousel-item {
-    padding: 7% 15%;
+    padding: 5% 10%;
     
   }
   .carusel-top {

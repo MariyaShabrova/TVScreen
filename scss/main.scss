@@ -52,13 +52,13 @@ header {
     background: url(/img/banner.jpg) no-repeat;
 }
 .hero-wrapper {
-    padding: 140px 0;
+    padding: 85px 0;
 }
 .header-hero .hero-bg {
     position: absolute;
     top: 0px;
     width: 100%;
-    height: 110%;
+    height: 100%;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-position: center center !important;
@@ -102,7 +102,7 @@ header {
 
 #main-header {
   font-size: 16px;
-  background: #7e414b;
+  background: #1d2b33;
   width: 100%;
   }
   
@@ -178,22 +178,22 @@ header {
     width: 20%;
     height: 100%;
     float: left;
-    background-color: #990000; /* fallback */
-    background:    linear-gradient(#990000, #6b0000);
-    border:        1px solid #660000;
+    background-color: #a57a82;
+    background: linear-gradient(#a2747c, #38272a);
+    border: 1px solid #17262e;
     border-radius: 5px;
-    box-shadow:    0 1px #6b0000;
-    padding:       2px 5px;
-    color:         #ffffff;
-    display:       inline-block;
-    font-size:     16px;
-    text-align:    center;
-    text-shadow:   1px 1px #000000;
+    box-shadow: 0 1px #41282e;
+    padding: 2px 5px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    text-shadow: 1px 1px #000000
   }
   
   .main-search-btn:hover {
-   background-color: #aa0000; /* fallback */
-   background: linear-gradient(#aa0000, #7C0A02); 
+    background-color: #eee6e6;
+    background: linear-gradient(#6f5b5e, #E91E63);
   }
   
   @media (max-width: 768px) {

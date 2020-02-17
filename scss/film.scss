@@ -14,13 +14,18 @@
     font-size: medium;
 }
 .film-data {
-    color: #E91E63;
+    color: #FFEB3B;
     font-size: 27px;
 }
 small {
     color: white;
 }
-.details-year {
+.film-details {
+    margin-top: 15%;
+    margin-left: 40px;
+}
+
+.details-item {
     color: #fff;
     opacity: .5;
     padding-right: 10px;
@@ -28,15 +33,55 @@ small {
     font-size: 16px;
     line-height: 24px;
     text-transform: uppercase;
-    width: 120px;
+    width: 95px;
+    text-align: right;
+}
+.details-list {
+    margin-bottom: 17px;
 }
 .details-year-text {
     font-size: 26px;
     line-height: 17px;
     margin: 0;
-    display: inline;
+    display: inline-block;
     color: #dedde1;
     white-space: normal;
     padding-left: 100px;
 
+}
+.details-name {
+    position: relative;
+    white-space: nowrap;
+    text-decoration: none;
+    padding-bottom: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-transform: none;
+    color: inherit;
+    border-bottom: none;
+}
+.film-button {
+    display: flex;
+    justify-content: space-between;
+}
+.film-trailer {
+    background: #e91e6370;
+    color: white;
+    
+}
+.film-look {
+    background: #e91e6370;
+    color: white; 
+}
+.film-trailer::before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: none;
+    transition: transform .1s,background-color .75s,color .75s,border-color .75s;
+    z-index: -1;
 }
