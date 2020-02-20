@@ -21,12 +21,14 @@ small {
     color: white;
 }
 .film-details {
-    margin-top: 15%;
-    margin-left: 40px;
+    margin-top: 5%;
+    margin-left: 100px;
 }
-
+.description-block {
+    display: flex;
+}
 .details-item {
-    color: #fff;
+    color: #3c3b3b;
     opacity: .5;
     padding-right: 10px;
     position: absolute;
@@ -38,13 +40,14 @@ small {
 }
 .details-list {
     margin-bottom: 17px;
+    list-style: none;
 }
 .details-year-text {
     font-size: 26px;
     line-height: 17px;
     margin: 0;
     display: inline-block;
-    color: #dedde1;
+    color: #101010;
     white-space: normal;
     padding-left: 100px;
 
@@ -66,13 +69,23 @@ small {
     justify-content: space-between;
 }
 .film-trailer {
-    background: #e91e6370;
+    background: #9f242b;
     color: white;
     
 }
+.film-trailer:hover {
+    background: white;
+    color: black;
+
+}
 .film-save {
-    background: #e91e6370;
+    background: #9f242b;
     color: white; 
+}
+.film-save:hover {
+    background: white;
+    color: black;
+
 }
 .film-block {
     display: flex;
@@ -80,7 +93,7 @@ small {
 }
 .film-look-hd {
     margin-top: -45px;
-    background: #87274d;
+    background: #9f242b;
     text-align: center;
     height: 37px;
     margin-bottom: 7px;
@@ -89,6 +102,10 @@ small {
     margin-left: 132px;
     font-size: 20px;
     color: white;
+}
+.film-look-hd:hover {
+    background: white;
+    color: black;
 }
 .film-trailer::before {
     bottom: 0;

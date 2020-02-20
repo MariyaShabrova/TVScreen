@@ -49,7 +49,7 @@ header {
     width: 100%;
 }
 .hero-bg {
-    background: url(/img/banner.jpg) no-repeat;
+    background: url(/img/banner2.png) no-repeat;
 }
 .hero-wrapper {
     padding: 85px 0;
@@ -92,10 +92,13 @@ header {
 
 .header-hero .entry-header p {
   font-size: 26px;
-  color: #bba8a6;
+  color: #f9ec7a;
   font-weight: 300;
   line-height: 1.55em;
   margin: 0px auto;
+}
+.navbar-dark .navbar-nav .nav-link  {
+  color: #FFEB3B;
 }
 
 /*Search*/
@@ -121,7 +124,7 @@ header {
     justify-content: center;
     text-align: center;
     align-items: center;
-    height: 90px;
+    height: 110px;
   }
   
   .main-header-wrap > .main-header-tagline {
@@ -162,7 +165,7 @@ header {
     align-self: center;
     height:30px;
     width: 100%;
-    padding: 0 5px;
+    padding: 0 50px;
   }
   
   #main-search { 
@@ -179,7 +182,7 @@ header {
     height: 100%;
     float: left;
     background-color: #a57a82;
-    background: linear-gradient(#a2747c, #38272a);
+    background: linear-gradient(#FFEB3B, #38272a);
     border: 1px solid #17262e;
     border-radius: 5px;
     box-shadow: 0 1px #41282e;
@@ -190,7 +193,9 @@ header {
     text-align: center;
     text-shadow: 1px 1px #000000
   }
-  
+  .main-search_text {
+    color: white;
+  }
   .main-search-btn:hover {
     background-color: #eee6e6;
     background: linear-gradient(#6f5b5e, #E91E63);

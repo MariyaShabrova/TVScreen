@@ -4,10 +4,10 @@
 }
 
   #testimonials {
-    background: url(/img/fon-sluder2.jpg) no-repeat;
+    background: url(/img/fon-sluder7.jpg) no-repeat;
     background-size: cover !important;
     color: black;
-    filter: saturate(0.5);
+   // filter: saturate(0.5);
     height: 425px;
 }
   
@@ -19,14 +19,14 @@
   }
   .testimonital-parameters {
     font-size: 1rem;
-    color: #736f6f;
+    color: #FFEB3B;
   }
   .testimonital-transition {
     width: 50%;
     height: 100%;
     float: left;
     background-color: #E91E63;
-    background: linear-gradient(#E91E63, #E91E63);
+    background: linear-gradient(#FFEB3B, #3a3a3a);
     border: 1px solid #17262e;
     border-radius: 5px;
     box-shadow: 0 1px #41282e;
@@ -45,6 +45,12 @@
   .carusel-top {
     display: flex; 
   }
+  .testimonial-title {
+    color: white;
+  }
+  .testimonial-title-text {
+    color: white;
+  }
   .testimonial-list {
       display: flex;
       flex-direction: column;
@@ -60,7 +66,9 @@
     
   }
   /* ignore the code below */
-  
+  .new {
+    background-color: #1d2b33;
+  }
   
   .link-area
   {
@@ -165,7 +173,14 @@ a.text-black:focus, a.text-black:hover {
 .list:hover {
     box-shadow: 0 10px 20px rgba(0,0,0,.19),0 6px 6px rgba(0,0,0,.23);
 }
-
+.new-title {
+  color: #FFEB3B;
+    margin-top: 45px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    text-decoration-line: overline;
+}
 .new-button {
   display: flex;
   margin: 22px 0px 30px 70%;
@@ -176,7 +191,7 @@ a.text-black:focus, a.text-black:hover {
     padding: 5px;
     height: 100%;
     background-color: #9c3659;
-    background: linear-gradient(#9c3659, #9c3659);
+    background: linear-gradient(#FFEB3B, #252424);
     border: 1px solid #17262e;
     border-radius: 5px;
     box-shadow: 0 1px #41282e;
